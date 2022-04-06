@@ -1,6 +1,6 @@
-# {{ name }}
+# 慕课学院前台项目
 
-> {{ description }}
+> 慕课学院前台项目，采用 Vue + Nuxt 构建
 
 ## Build Setup
 

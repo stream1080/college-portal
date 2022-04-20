@@ -25,7 +25,7 @@
               <span>Email：info@college.com</span>
             </section>
             <section class="b-f-link mt10">
-              <span>©2020 课程版权均归慕课学院所有 沪 ICP 备64374423号</span>
+              <span>©2022 课程版权均归慕课学院所有 沪 ICP 备64374423号</span>
             </section>
           </section>
         </section>

@@ -70,13 +70,13 @@ export default {
         // debugger
         // 跳转到网站的首页面
         window.location.href = '/'
-        if (document.referrer.indexOf('register') !== -1) { // 如果上一页是注册页面，则跳转到网站的首页
-          window.location.href = '/'
-        } else {
-          // console.log('cookie before:' + cookie.get('college_jwt_token'))
-          history.go(-1) // 跳转到上一个刚刚访问的页面
-          // console.log('cookie after:' + cookie.get('college_jwt_token'))
-        }
+        // if (document.referrer.indexOf('register') !== -1) { // 如果上一页是注册页面，则跳转到网站的首页
+        //   window.location.href = '/'
+        // } else {
+        //   // console.log('cookie before:' + cookie.get('college_jwt_token'))
+        //   history.go(-1) // 跳转到上一个刚刚访问的页面
+        //   // console.log('cookie after:' + cookie.get('college_jwt_token'))
+        // }
       })
     }
   }

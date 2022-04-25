@@ -34,6 +34,7 @@ export default {
     new Aliplayer({
       id: 'J_prismPlayer',
       width: '100%',
+      height: '580px',
       vid: this.vid,
       playauth: this.playauth,
       encryptType: 1 // 当播放私有加密流时需要设置。

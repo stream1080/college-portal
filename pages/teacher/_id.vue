@@ -15,9 +15,17 @@
               <img :src="teacher.avatar" :alt="teacher.name">
             </section>
             <h3 class="hLh30">
-              <span class="fsize24 c-333">{{ teacher.name }}
+              <span v-if="teacher.level === 1" class="fsize24 c-333">{{ teacher.name }}
                 &nbsp;
-                {{ teacher.level===1?'高级讲师':'首席讲师' }}
+                {{ '普通讲师' }}
+              </span>
+              <span v-if="teacher.level === 2" class="fsize24 c-333">{{ teacher.name }}
+                &nbsp;
+                {{ '高级讲师' }}
+              </span>
+              <span v-if="teacher.level === 3" class="fsize24 c-333">{{ teacher.name }}
+                &nbsp;
+                {{ '首席讲师' }}
               </span>
             </h3>
             <section class="mt10">

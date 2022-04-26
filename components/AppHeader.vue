@@ -60,7 +60,7 @@
           </li>
           <!-- /未登录显示第1 li；登录后显示第2，3 li -->
         </ul>
-        <aside class="h-r-search">
+        <!-- <aside class="h-r-search">
           <form action="#" method="post">
             <label class="h-r-s-box">
               <input type="text" placeholder="搜索课程" name="queryCourse.courseName" value>
@@ -69,7 +69,7 @@
               </button>
             </label>
           </form>
-        </aside>
+        </aside> -->
       </div>
       <aside class="mw-nav-btn">
         <div class="mw-nav-icon"/>

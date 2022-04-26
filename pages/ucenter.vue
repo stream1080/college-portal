@@ -8,8 +8,8 @@
 
           <dl>
             <dd class="u-m-dd">
-              <ul>
-                <li>
+              <!-- <ul> -->
+              <!-- <li>
                   <span>Wo的资料</span>
                   <ol>
                     <li>
@@ -28,11 +28,11 @@
                       </a>
                     </li>
                   </ol>
-                </li>
-              </ul>
+                </li> -->
+              <!-- </ul> -->
               <ul>
                 <li>
-                  <span>Wo的学习</span>
+                  <span>学习情况</span>
                   <ol>
                     <router-link to="/ucenter/order" tag="li" active-class="current" exact>
                       <a>我的订单</a>
@@ -44,7 +44,7 @@
                 </li>
               </ul>
               <ul>
-                <li>
+                <!-- <li>
                   <span>Wo的问答</span>
                   <ol>
                     <li>
@@ -58,18 +58,18 @@
                       </a>
                     </li>
                   </ol>
-                </li>
+                </li> -->
               </ul>
 
               <ul>
-                <li >
+                <!-- <li >
                   <span>Wo的消息</span>
                   <ol>
                     <li>
                       <a href="uc_letter.html" title="">系统消息</a>
                     </li>
                   </ol>
-                </li>
+                </li> -->
               </ul>
             </dd>
           </dl>
